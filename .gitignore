@@ -56,7 +56,8 @@ Thumbs.db
 
 # SQLite
 *.db
-
+*.sqlite
+*.sqlite3
 
 # MySQL dumps: ignore only if they contain
 # local/private data or generated test data
