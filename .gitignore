@@ -1,0 +1,70 @@
+# =========================
+# Java - compiled files
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+
+# =========================
+# Java - build directories
+# =========================
+target/
+build/
+out/
+
+# =========================
+# IDEs
+# =========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Visual Studio Code
+.vscode/
+
+# =========================
+# Operating system files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs and temporary files
+# =========================
+*.log
+*.tmp
+*.bak
+*~
+
+# =========================
+# Environment variables and secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Database local files
+# =========================
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# MySQL dumps: ignore only if they contain
+# local/private data or generated test data
+# *.dump
+
+# =========================
+# Local configuration
+# =========================
+application-local.properties
+application-local.yml
